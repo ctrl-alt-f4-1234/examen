@@ -7,5 +7,5 @@ module.exports = app =>{
   router.delete("/delete/:id", Estudiante.delete);
   router.delete("/delete/", Estudiante.deleteAll);
   router.put("/update/:id", Estudiante.update);
-  app.use("/api/colegio", router);
+  app.use("/api/estudiante", router);
 };
