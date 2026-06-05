@@ -13,7 +13,7 @@ exports.create = (req, res)=>{
     return;
   }
 
-  const Estudiante = {
+  const estudiante = {
     id: req.body.id,
     nombre: req.body.nombre,
     edad: req.body.edad,
