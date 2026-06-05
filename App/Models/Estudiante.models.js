@@ -3,7 +3,8 @@ module.exports = (sequelize, Sequelize) =>
 {
   const Estudiante = sequelize.define ("estudiante", {
 id:{
-  type: Sequelize.STRING
+  type: Sequelize.STRING,
+  primaryKey: true
 },
 nombre:{
   type: Sequelize.STRING
