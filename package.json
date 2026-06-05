@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "express": "^5.2.1",
     "server-js": "^0.1.4"
-  }
+  },
+  "name": "examen-2da-unidad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrl-alt-f4-1234/examen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ctrl-alt-f4-1234/examen/issues"
+  },
+  "homepage": "https://github.com/ctrl-alt-f4-1234/examen#readme"
 }
