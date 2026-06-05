@@ -2,18 +2,14 @@ module.exports = (sequelize, Sequelize) =>
 
 {
   const Estudiante = sequelize.define ("estudiante", {
-id:{
-  type: Sequelize.STRING,
-  primaryKey: true
-},
 nombre:{
   type: Sequelize.STRING
 },
 edad: {
-  type: Sequelize.STRING
+  type: Sequelize.INTEGER
 },
 promedio: {
-  type: Sequelize.STRING
+  type: Sequelize.INTEGER
 }
   });
   return Estudiante
