@@ -1,4 +1,4 @@
-const db = require("../Models");
+const db = require("../Models/index.js");
 const Estudiante = db.estudiante;
 const Op = db.Sequelize.Op;
 
