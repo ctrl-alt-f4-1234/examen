@@ -150,7 +150,7 @@ res.status(500).send({
 exports.delete = (req, res) => {
   const id = req.params.id;
   Estudiante.destroy({
-    werhe: {id: id}
+    where: {id: id}
   })
 
   .then(num => {
