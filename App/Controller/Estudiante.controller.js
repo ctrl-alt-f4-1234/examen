@@ -50,7 +50,7 @@ exports.findAll = (req, res) =>{
 
   var condition = nombre ? {nombre: {[Op.iLike]: `%${nombre}%`} }: null;
 
-Colegio.findAll ({ where: condition})
+Estudiante.findAll ({ where: condition})
 
 .then(data => {
 
